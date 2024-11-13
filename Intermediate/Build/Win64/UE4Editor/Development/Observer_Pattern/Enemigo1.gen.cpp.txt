@@ -1,0 +1,9 @@
+F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Development\Observer_Pattern\Definitions.Observer_Pattern.h
+E:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Source\Observer_Pattern/Enemigo1.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Source\Observer_Pattern\ISubscriptor.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Inc\Observer_Pattern\ISubscriptor.generated.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Source\Observer_Pattern\IAccionEnemiga.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Inc\Observer_Pattern\IAccionEnemiga.generated.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Inc\Observer_Pattern\Enemigo1.generated.h

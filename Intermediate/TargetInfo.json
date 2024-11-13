@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Observer_Pattern",
+			"Path": "F:\\DonkeyKong_SIS457\\Observer_Pattern\\Source\\Observer_Pattern.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Observer_PatternEditor",
+			"Path": "F:\\DonkeyKong_SIS457\\Observer_Pattern\\Source\\Observer_PatternEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

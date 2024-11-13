@@ -1,0 +1,5 @@
+F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Development\Observer_Pattern\Definitions.Observer_Pattern.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Source\Observer_Pattern\VidasEnemigoObserver.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Source\Observer_Pattern\Publicador.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Inc\Observer_Pattern\Publicador.generated.h
+F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Inc\Observer_Pattern\VidasEnemigoObserver.generated.h
