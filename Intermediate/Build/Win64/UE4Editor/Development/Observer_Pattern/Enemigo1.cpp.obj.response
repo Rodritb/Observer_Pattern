@@ -262,8 +262,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/FI"F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\Observer_PatternEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\Observer_PatternEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\Observer_PatternEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "F:\DonkeyKong_SIS457\Observer_Pattern\Source\Observer_Pattern\Enemigo1.cpp"
-/FI"F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Development\Observer_Pattern\Definitions.h"
+/FI"F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Development\Observer_Pattern\Definitions.Observer_Pattern.h"
 /Fo"F:\DonkeyKong_SIS457\Observer_Pattern\Intermediate\Build\Win64\UE4Editor\Development\Observer_Pattern\Enemigo1.cpp.obj"
 /TP
 /GR-
