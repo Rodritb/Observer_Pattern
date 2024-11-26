@@ -64,7 +64,8 @@ void AEnemigo1::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Othe
 	{
 		// Mostrar mensaje de colisión en los logs
 		UE_LOG(LogTemp, Warning, TEXT("¡Colisión detectada!"));
-
+		UE_LOG(LogTemp, Warning, TEXT("Aumentando la velocidad del enemigo"));
+		UE_LOG(LogTemp, Warning, TEXT("Cambiando dirección del enemigo"));
 		// Reducir vida al colisionar
 		SetVidasEnemigo(1);
 
@@ -101,10 +102,28 @@ void AEnemigo1::Actualizar(APublicador* _publicador)
 void AEnemigo1::Actuar()
 {
 	FString mensaje_recibido = observer->GetMensaje();
+	UE_LOG(LogTemp, Warning, TEXT("El enemigo recibió el mensaje: %s"), *mensaje_recibido);
+
 	if (mensaje_recibido.Equals("QuitarVida"))
 	{
 		SetVidasEnemigo(1);
 	}
+	
+	/*else if (mensaje_recibido.Equals("AumentarVelocidad"))
+	{
+		// Lógica para aumentar velocidad
+		UE_LOG(LogTemp, Warning, TEXT("Aumentando la velocidad del enemigo"));
+	}
+	else if (mensaje_recibido.Equals("CambiarDireccion"))
+	{
+		// Lógica para cambiar dirección
+		UE_LOG(LogTemp, Warning, TEXT("Cambiando dirección del enemigo"));
+	}
+	else if (mensaje_recibido.Equals("ActivarDefensa"))
+	{
+		// Lógica para activar defensa
+		UE_LOG(LogTemp, Warning, TEXT("Activando defensa del enemigo"));
+	}*/
 	
 }
 

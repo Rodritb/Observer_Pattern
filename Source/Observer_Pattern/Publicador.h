@@ -20,6 +20,9 @@ protected:
 	virtual void BeginPlay() override;
 
 	TArray<AActor*> ArrayEnemigos;
+	TArray<FString> _Eventos;
+	FTimerHandle TimerHandle;
+	int32 Eventos;
 
 public:	
 	// Called every frame
@@ -28,5 +31,7 @@ public:
 	virtual void Subscribirse(AActor* _subs);
 	virtual void Cancelar(AActor* _subs);
 	virtual void Notificar();
-
+	virtual void ActivarEventos();	
+	
+	void AgregarEventos(FString _nuevoevento);
 };

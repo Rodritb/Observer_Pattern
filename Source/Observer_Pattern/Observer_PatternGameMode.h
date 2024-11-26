@@ -20,6 +20,7 @@ protected:
 
 	class AVidasEnemigoObserver* observer;
 	class AEnemigo1* enemigo1;
+	class APublicador* publicado;
 };
 
 

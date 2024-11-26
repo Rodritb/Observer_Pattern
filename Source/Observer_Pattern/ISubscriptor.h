@@ -24,4 +24,5 @@ class OBSERVER_PATTERN_API IISubscriptor
 public:
 	virtual void EstablecerObserver(class AVidasEnemigoObserver* _observer) = 0;
 	virtual void Actualizar(class APublicador* _publicador) = 0;
+	
 };
